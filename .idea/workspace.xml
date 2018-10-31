@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="006af578-49b9-48f1-b940-2b289fb9ad45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="006af578-49b9-48f1-b940-2b289fb9ad45" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,11 +39,11 @@
         <counts>
           <entry key="css" value="18" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="38" />
+          <entry key="js" value="41" />
           <entry key="json" value="5" />
           <entry key="lock" value="1" />
           <entry key="loose-envify" value="1" />
-          <entry key="map" value="1" />
+          <entry key="map" value="2" />
           <entry key="svg" value="2" />
           <entry key="ts" value="2" />
           <entry key="tsx" value="1" />
@@ -59,9 +54,9 @@
           <entry key="CSS" value="18" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="37" />
+          <entry key="JavaScript" value="40" />
           <entry key="SVG" value="2" />
-          <entry key="SourceMap" value="1" />
+          <entry key="SourceMap" value="2" />
           <entry key="TypeScript" value="2" />
           <entry key="TypeScript JSX" value="1" />
           <entry key="UML" value="2" />
@@ -91,17 +86,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="249" column="18" lean-forward="true" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+            <state relative-caret-position="84">
+              <caret line="252" column="45" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#378#425#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/render-page.js.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7317">
+              <caret column="1032764" selection-start-column="1032764" selection-end-column="1032764" />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -139,12 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>headercontaine</find>
-      <find>portfoli</find>
-      <find>display</find>
-      <find>paragraphhe</find>
-      <find>headercon</find>
-      <find>justify</find>
       <find>phot</find>
       <find>paragra</find>
       <find>newline</find>
@@ -169,6 +168,12 @@
       <find>paragraphhead</find>
       <find>buttons</find>
       <find>hero</find>
+      <find>[</find>
+      <find>error</find>
+      <find>map</find>
+      <find>invaria</find>
+      <find>inv</find>
+      <find>queue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,8 +214,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="68" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -232,12 +237,6 @@
               <item name="gatsby-tailwind-demo-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-tailwind-demo-master" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-tailwind-demo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-tailwind-demo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-tailwind-demo-master" type="b2602c69:ProjectViewProjectNode" />
@@ -329,12 +328,12 @@
       <workItem from="1540870209856" duration="3419000" />
       <workItem from="1540883351120" duration="1538000" />
       <workItem from="1540920983949" duration="16963000" />
-      <workItem from="1541017265756" duration="3908000" />
+      <workItem from="1541017265756" duration="4779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82818000" />
+    <option name="totallyTimeSpent" value="83689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="777" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13899921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -364,7 +362,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329927" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32944608" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2065131" side_tool="true" weight="0.66861314" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.7934869" visible="true" weight="0.51386863" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.7934869" visible="true" weight="0.37810218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -618,23 +616,43 @@
     <entry file="file://$PROJECT_DIR$/public/static/3-9b604e2ef45a98207e163fb2ba12a738.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/better-queue/lib/tickets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/better-queue/lib/ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/better-queue/lib/queue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        <state relative-caret-position="-42">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="249" column="18" lean-forward="true" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+        <state relative-caret-position="84">
+          <caret line="252" column="45" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#378#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/render-page.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7317">
+          <caret column="1032764" selection-start-column="1032764" selection-end-column="1032764" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
   </component>
 </project>
