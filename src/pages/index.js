@@ -52,21 +52,14 @@ background-position: center;
 `;
 
 //logo
-const Container = styled('div')`${tw( [
-    'flex',
-    'justify-center',
-    'mb-4',] )};
-    img {margin:50px;}`;
+const Container = styled('div')`${tw('flex justify-center mb-4')};
+img {margin:50px;}`;
 
 //body
-const Hero = styled('div')` ${ tw([
-    'flex',
-    'flex-wrap',
-    'w-1/3'
-])};
+const Hero = styled('div')`${tw('flex flex-wrap w-1/3')};
 margin-top: 100px;
 margin-left: 200px;
-margin-bottom: 100px;
+margin-bottom: 150px;
 img {
 min-width: 300px;
 }
@@ -81,41 +74,15 @@ img {
 }
 `;
 
-const HeaderImage = styled('img')`${tw( [
-    'w-1/4',
-    'mt-8',
-    'flex-none',
-] )};`;
+const HeaderImage = styled('img')`${tw('w-1/4 mt-8 flex-none' )};`;
 
-const BlueButton = styled('button')`${tw( [
-    'flex-initial',
-    'bg-blue',
-    'hover:bg-blue-dark',
-    'text-white',
-    'font-bold',
-    'py-2',
-    'px-4',
-    'rounded-full'
-        ] )};`;
-const VideoButton = styled('button')`${tw([
-    'flex-initial',
-    'font-bold',
-    'hover:bg-grey',
-    'leading-normal',
-    'px-4',
-    'py-1',
-    'rounded-full',
-    'text-xs'
-])};`;
-const Buttons = styled('div')` ${tw([
-    'flex',
-    'justify-center',
-])};
-`;
+const BlueButton = styled('button')`${tw( 'flex-initial bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full')};`;
 
-const Paragraph = styled('p')`${tw( [
-    'text-sm',
-] )};
+const VideoButton = styled('button')`${tw('flex-initial font-bold hover:bg-grey leading-normal px-4 py-1 rounded-full text-xs')};`;
+
+const Buttons = styled('div')`${tw('flex justify-center')};`;
+
+const Paragraph = styled('p')`${tw('text-sm')};
 font-family: InterUIRegular;
 text-align: ${props=>props.ta};
 margin: 50px 250px;
@@ -123,34 +90,21 @@ margin: 50px 250px;
 
 
 
-const HeaderContainer = styled('div')`${tw( [
-] )};
+const HeaderContainer = styled('div')`
 display: flex;
 flex-wrap: no-wrap;
 margin: ${props=>props.margin};
 justify-content: ${props=>props.justify};
 `;
 
-const ParagraphHeader = styled('div')` ${ tw([
-    'uppercase',
-] )};
+const ParagraphHeader = styled('div')` ${ tw('uppercase')};
 font-family: ${props=>props.ff};
 font-size: ${props=>props.fs};
 `;
 
-const Icons = styled('div')` ${tw( [
-    'flex',
-    'flex-wrap',
-    'items-center',
-    'justify-center'
-] )};`;
+const Icons = styled('div')` ${tw('flex flex-wrap items-center justify-center')};`;
 
-const Box = styled('div')`${tw( [
-    'flex',
-    'flex-wrap',
-    'justify-center',
-    'w-1/3'
-] )};
+const Box = styled('div')`${tw('flex flex-wrap justify-center w-1/3')};
 svg {
     width: 100%;
 }
@@ -161,12 +115,7 @@ p {
 }
 `;
 
-const Portfolio = styled('div')` ${ tw( [
-    'flex',
-    'flex-wrap',
-    'justify-around',
-    'bg-blue'
-] ) };
+const Portfolio = styled('div')`${tw('flex flex-wrap justify-around bg-blue') };
 img {
     width: 15%;
     height: 100px;
@@ -174,12 +123,13 @@ img {
 }
 `;
 
-const Photo = styled('div')`${tw( [
-] )};
+const Photo = styled('div')`
 margin: 15px;
 `;
 
-
+const Divider = styled('div')`
+font-size: ${props=>props.fs};
+`;
 
 export default () => (
   <React.Fragment>
@@ -223,8 +173,10 @@ export default () => (
       <Body>
 
           <HeaderContainer justify="center" margin="50px 250px">
-            <ParagraphHeader ff="InterUIExtraBold" fs="3rem" margin="50px 250px">Display&nbsp;</ParagraphHeader>
-            <ParagraphHeader ff="InterUIRegular" fs="3rem" margin="50px 250px">| Options</ParagraphHeader>
+            <ParagraphHeader ff="InterUIExtraBold" fs="2.5rem" margin="50px 250px">Display</ParagraphHeader>
+              <Divider fs="2.5rem">&nbsp;|&nbsp;</Divider>
+
+              <ParagraphHeader ff="InterUIRegular" fs="2.5rem" margin="50px 250px">Options</ParagraphHeader>
           </HeaderContainer>
 
           <PhotoGrid>
@@ -259,15 +211,17 @@ export default () => (
           </PhotoGrid>
 
           <HeaderContainer justify="flex-end" margin="50px 250px">
-            <ParagraphHeader ff="InterUIExtraBold" fs="3rem">Visual&nbsp;</ParagraphHeader>
-            <ParagraphHeader ff="InterUIRegular" fs="3rem">| Options</ParagraphHeader>
+            <ParagraphHeader ff="InterUIExtraBold" fs="2.5rem">Visual</ParagraphHeader>
+              <Divider fs="2.5rem">&nbsp;|&nbsp;</Divider>
+              <ParagraphHeader ff="InterUIRegular" fs="2.5rem">Options</ParagraphHeader>
           </HeaderContainer>
           <Paragraph ta="right">Each display can be configured into four (4) options.<br />
               The options are... 1-Sided, 2-Sided, 4-Sided and LCD incorporated.<br />Learn More</Paragraph>
 
           <HeaderContainer justify="flex-start" margin="50px 250px">
-            <ParagraphHeader ff="InterUIExtraBold" fs="3rem">Benefits&nbsp;</ParagraphHeader>
-            <ParagraphHeader ff="InterUIRegular" fs="3rem">| Features</ParagraphHeader>
+            <ParagraphHeader ff="InterUIExtraBold" fs="2.5rem">Benefits</ParagraphHeader>
+              <Divider fs="2.5rem">&nbsp;|&nbsp;</Divider>
+              <ParagraphHeader ff="InterUIRegular" fs="2.5rem">Features</ParagraphHeader>
           </HeaderContainer>
           <Paragraph ta="left">FlyVision is a 21st Century technology based company that<br />
               offers unique and innovative display solutions designed to<br />
@@ -301,8 +255,10 @@ export default () => (
           </Icons>
 
           <HeaderContainer justify="flex-start" margin="50px 250px">
-            <ParagraphHeader ff="InterUIExtraBold" fs="3rem">Client&nbsp;</ParagraphHeader>
-            <ParagraphHeader ff="InterUIRegular" fs="3rem">| Testimonials</ParagraphHeader>
+            <ParagraphHeader ff="InterUIExtraBold" fs="2.5rem">Client</ParagraphHeader>
+              <Divider fs="2.5rem">&nbsp;|&nbsp;</Divider>
+
+              <ParagraphHeader ff="InterUIRegular" fs="2.5rem">Testimonials</ParagraphHeader>
           </HeaderContainer>
 
           <Portfolio>
@@ -314,8 +270,9 @@ export default () => (
           </Portfolio>
 
           <HeaderContainer justify="flex-start" margin="50px 250px">
-            <ParagraphHeader ff="InterUIExtraBold" fs="3rem">Inquire&nbsp;</ParagraphHeader>
-            <ParagraphHeader ff="InterUIRegular" fs="3rem">| Need Assistance</ParagraphHeader>
+            <ParagraphHeader ff="InterUIExtraBold" fs="2.5rem">Inquire</ParagraphHeader>
+              <Divider fs="2.5rem">&nbsp;|&nbsp;</Divider>
+              <ParagraphHeader ff="InterUIRegular" fs="2.5rem">Need Assistance</ParagraphHeader>
           </HeaderContainer>
 
        </Body>
