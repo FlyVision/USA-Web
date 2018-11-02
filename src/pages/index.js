@@ -17,7 +17,7 @@ import logo from '../images/flyvision-logo.svg'
 import header from '../images/header.svg'
 import background from '../images/background.jpg'
 import bgWhite from '../images/bg-white.svg'
-import bgBenefits from '../images/bg-Benefits.svg'
+import bgBenefits from '../images/bg-benefits.svg'
 import './index.css'
 //images
 import photo1 from '../photos/1.jpg'
